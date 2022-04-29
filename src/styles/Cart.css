@@ -1,0 +1,39 @@
+.wheel{
+    display: flex;
+    justify-content: center;
+    /* padding-top: 20px; */
+}
+
+.cart{
+    background-color: white;
+    width: 1000px;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    /* position: absolute; */
+    height: fit-content;
+    
+}
+.headd{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 2px;
+}
+.cards{
+    background-color: aqua;
+    width: 500px;
+    position: relative;
+    height: 120px;
+    width: 800px;
+    box-shadow: 5px 5px #888888;
+    border-radius: 5px;
+    /* display: flex; */
+
+}
+.empty{
+    height: 150px;
+    background-color: white;
+}

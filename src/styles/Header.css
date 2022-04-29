@@ -1,0 +1,45 @@
+.head {
+    height: 60px;
+    position: fixed;
+    /* position: relative; */
+    background-color: rgba(19, 25, 33, 255);
+    top: 0px;
+    left: 0px;
+    z-index: 3;
+    width: 100%;
+}
+
+.rel {
+    height: 60px;
+    /* background-color: aqua; */
+    position: relative;
+    width: 1px;
+}
+
+.amazon {
+    height: 60px;
+    width: 150px;
+    background-image: url('../components/images/amazon.png');
+    background-size: 150px;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 60px;
+}
+
+.del {
+    position: absolute;
+    height: 60px;
+    width: 2100px;
+    left: 220px;
+    background-image: url('../components/images/del.png');
+    background-size: 200px;
+    background-repeat: no-repeat;
+}
+
+.search {
+    position: absolute;
+    left: 500px;
+    height: 40px;
+    top: 10px;
+    width: 400px;
+}

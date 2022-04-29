@@ -1,0 +1,82 @@
+.Login {
+    /* background-color: black; */
+    width: 100%;
+    min-height: 960px;
+    height: fit-content;
+    background-image: url(../components/images/bg.jpg);
+    background-size: cover;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.sb {
+    background-image: url(../components/images/bgg.webp);
+    background-repeat: no-repeat;
+    background-size: 450px;
+    z-index: 999;
+    width: 350px;
+    top: 270px;
+    position: fixed;
+    margin: 20px;
+    height: 420px;
+    border-radius: 20px;
+
+}
+
+.log {
+    /* background-color: blue; */
+    height: 40px;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.user {
+    padding-left: 30px;
+    font-size: 15px;
+}
+
+.inp {
+    width: 300px;
+    border: none;
+    margin-left: 20px;
+    height: 20px;
+    border-radius: 5px;
+}
+
+.fp {
+    text-align: right;
+    padding-right: 20px;
+    font-size: 10px;
+}
+
+.butt {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    padding: 2px;
+    border-radius: 5px;
+    margin-left: 120px;
+    background-image: url(../components/images/butt.gif);
+    background-position: center;
+    background-size: 175px;
+    background-repeat: no-repeat;
+}
+
+.or {
+    text-align: center;
+}
+
+.gft {
+    /* background-color: black; */
+    height: 40px;
+    background-image: url(../components/images/crop.png);
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
