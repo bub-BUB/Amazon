@@ -1,0 +1,8 @@
+.foot {
+    height: 100px;
+    background-color: black;
+    color: aqua;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}

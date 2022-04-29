@@ -1,0 +1,19 @@
+.sub{
+    background-color: rgba(19, 25, 45, 255);
+    display: flex;
+    padding-left: 40px;
+    height: 50px;
+    margin-top: -8px;
+}
+.tags{
+    padding-right: 20px;
+    color: white;
+}
+
+.tag{
+    color: rgb(16, 24, 24);
+    text-shadow: 5px;
+    size: 10px;
+    color: aqua;
+    padding-right: 20px;
+}
